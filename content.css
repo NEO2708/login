@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: skyblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .header {
+    width: 100%;
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vh;
+    background-color: rgb(0, 179, 250);
+    color: white;
+}
+
+h3 {
+    margin-left: 3vh;
+    text-align: left;
+    text-shadow: 0px 0px 5px skyblue;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4vh;
+}
+
+#img {
+    border: 1px solid black;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 30px;
+     margin-right: 3vh; 
+margin-top: 1vh;
+}
+
+*/
+
+.nav {
+
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.profile,
+.content,
+.extra {
+
+
+    /* background-color: skyblue; */
+    width: 100%;
+    padding: 2px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proa,
+.exta {
+
+    background-color: skyblue;
+    z-index: 0px;
+    border: 2px solid rgb(0, 179, 250);
+    width: 15vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+}
+
+.proa:hover,
+.exta:hover {
+    text-decoration: underline;
+}
+
+.cona {
+    text-decoration: underline;
+    width: 15vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border: 2px solid black;
+}
+
+.main {
+    padding: 2px;
+    border: 2px solid black;
+
+    height: fit-content;
+    z-index: 1;
+    margin-top: -1px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+
+
+
+
+.line {
+    margin-bottom: 5vh;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+h4.header {
+    text-decoration: none;
+    font-size: 6vh;
+}
+
+/*  */
+table {
+    border: 2px solid black;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+span {
+    font-size: 2vh;
+    color: blue;
+}
+
+
+
+td,
+th {
+    border: 2px solid white;
+    text-align: left;
+    padding: 8px;
+    font-size: 3vh;
+}
+
+th {
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 179, 250);
+}
+
+
+
+a {
+    font-size: 3vh;
+    color: white;
+    text-decoration: underline;
+    text-shadow: 0px 0px black;
+    transition: text-shadow;
+    transition-duration: 0.5s;
+
+
+
+}
+
+a:hover {
+    text-shadow: 0px 0px 40px white;
+    text-shadow: 0px 0px 40px white;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+
+}
+
+/* Practicals */
+.practicals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 179, 250);
+    border: 2px solid rgb(0, 179, 250);
+    padding: 3vh;
+    border-radius: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boopp {
+    margin-left: 4vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 9px;
+    padding: 6px;
+}
+
+.boopc {
+    margin-top: 2vh;
+    font-size: 3vh;
+    color: black;
+    margin-bottom: 2vh;
+}
+
+/* Navigator */
+
+.navi {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px;
+    background-color: rgb(0, 179, 250);
+
+}
+
+/* Dropdown menu */
+.dropbtn {
+    background-color: skyblue;
+    color: black;
+    /* padding: 16px; */
+    font-size: 3vh;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 179, 250);
+    min-width: 20vh;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
+    width: 100%;
+    font-size: 3vh;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+
+}
+
+.dropdown-content a:hover {
+    background-color: skyblue;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: rgb(0, 179, 250);
+
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(0, 179, 250);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    padding: 3px;
+    color: white;
+}
+
+a {}
+
+a {
+    text-decoration: none;
+    font-size: 4vh;
+    color: black;
+
+}
